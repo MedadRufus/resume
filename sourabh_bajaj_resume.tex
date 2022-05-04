@@ -48,9 +48,8 @@
 
 %-------------------------
 % Custom commands
-\newcommand{\resumeItem}[2]{
-  \item\small{
-    \textbf{#1}{: #2 \vspace{-2pt}}
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}
   }
 }
 
@@ -105,10 +104,8 @@
       {Imperial College London}{London, UK}
       {Masters in Design Engineering;  2:1 grade}{Sep. 2017 -- June. 2021}
       \resumeItemListStart
-        \resumeItem{Subjects}
-          {Mechanics, Electronics, Algorithms \& Data Structures, Optimisation, Robotics, Human-Centred Design, Industrial Design and Business Strategy.}
-        \resumeItem{Thesis}
-          {Thesis on predicting E-bike energy consumption with machine learning.}
+        \resumeItem{Subjects: Mechanics, Electronics, Algorithms \& Data Structures, Optimisation, Robotics, Human-Centred Design, Industrial Design and Business Strategy.}
+        \resumeItem{Thesis on predicting E-bike energy consumption with machine learning.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -121,58 +118,39 @@
       {Dyson}{Hullavington, UK}
       {Graduate Software Engineer}{Feb 2022 - Present}
       \resumeItemListStart
-        \resumeItem{Cloud Data Management}
-          {Developed software for message passing pipeline for millions of devices using AWS. Using severless architecture}
-        \resumeItem{Bluetooth Low Energy}
-          {Develop Bluetooth Low Energy(BLE) software for connectivity. Written in C and Python}
-        \resumeItem{Embedded Unittesting}
-          {Develop Bluetooth Low Energy(BLE) software for connectivity. Written in C and Python}
-
-
+        \resumeItem{Developed Bluetooth Low Energy(BLE) software for connectivity. Written in C/Python}
+        \resumeItem{Implement embedded firmware unit testing using the Ceedling framework (Unit \& CMock)}
       \resumeItemListEnd
   
     \resumeSubheading
       {Ashburton Finance}{London, UK}
       {Founder}{Sep 2021 - Nov 2021}
       \resumeItemListStart
-        \resumeItem{Crypto Lending}
-          {Founded a venture for lending of cryptocurrencies. Concept was based around aggregating flash loans from different flash loan providers(\href{https://github.com/Ashburton-Finance/flash-aggregator}{Github link})}
-        \resumeItem{Smart Contracts/Blockchain}
-          {Developed product on the Solana blockchain, using the latest tooling(Smart Contracts, Typescript/Rust programming, Anchor framework).}
+        \resumeItem{Founded a venture for lending of cryptocurrencies. Concept was based around aggregating flash loans from different flash loan providers(\href{https://github.com/Ashburton-Finance/flash-aggregator}{Github link})}
+        \resumeItem{Developed product on the Solana blockchain, using the latest tooling: Smart Contracts, Typescript/Rust programming, Anchor framework.}
       \resumeItemListEnd
   
     \resumeSubheading
       {Ion-O Tech}{London, UK}
       {Embedded Hardware/Software Engineer Intern}{June 2021 - Sep 2021}
       \resumeItemListStart
-        \resumeItem{Electric Bike Development}
-          {Worked in a team to develop a high performance, innovative electric bicycle.}
-        \resumeItem{PCB Design}
-          {Created an ESP32 based datalogger logging all relevant parameters from a moving E-bike.}
-        \resumeItem{Data Visualisation}
-          {Created visualisation dashboards of performance data from the product using InfluxDB/Grafana.}
-        \resumeItem{Embedded Software}
-          {Implemented software for datalogger, running FreeRTOS for scheduling and interfacing with several sensors.}
-        \resumeItem{Battery Pack Design}
-          {Designed custom battery packs and tested their performance, especially thermal characteristics.}
-        \resumeItem{Energy Consumption Algorithms}
-          {Developed algorithms for precisely predicting how much energy an electric bike will consume.}
+        \resumeItem{Worked in a team to develop a high performance, innovative electric bicycle.}
+        \resumeItem{Created an ESP32 based datalogger logging all relevant parameters from a moving E-bike.}
+        \resumeItem{Created visualisation dashboards with InfluxDB/Grafana of performance data from the product.}
+        \resumeItem{Implemented software for datalogger, running FreeRTOS for scheduling and interfacing with several sensors.}
+        \resumeItem{Designed custom battery packs and tested their performance, especially thermal characteristics.}
+        \resumeItem{Developed algorithms for energy consumption prediction, using physics models and machine learning}
       \resumeItemListEnd
 
     \resumeSubheading
       {Onsee (formerly Pelation)}{London, UK}
       {Design Engineer Intern}{May 2020 - Sep 2020}
       \resumeItemListStart
-        \resumeItem{Rebo: Bike Camera}
-          {Worked in a team developing a camera meant for cyclists; Worked on hardware/firmware for device and web interface(Django/Python).}
-        \resumeItem{Embedded Software}
-          {Worked on software architecture, implementation of software for the product, on 2 processors(Vision and Battery management). Code was written in C and in Python. Processors: Broadcom SoC and Atmel MCU.}
-        \resumeItem{Battery Management Algorithms}
-          {Wrote the algorithms for battery management, including State-of-Charge estimation, overvoltage/undervoltage protection, overcharge protection.}
-        \resumeItem{Data Visualisation}
-          {Created visualisation dashboards in Plotly of data, for performance analysis and fault detection.}
-        \resumeItem{Video Processing}
-          {Created scripts to cut, splice and watermark videos captured on the product.}
+        \resumeItem{Worked in a team developing a camera meant for cyclists; Worked on hardware/firmware for device and web interface(Django/Python).}
+        \resumeItem{Worked on Embedded Software for the product, on 2 processors(Vision and Battery management). Code was written in C and in Python. Processors: Broadcom SoC and Atmel MCU.}
+        \resumeItem{Wrote the algorithms for battery management, including state-of-charge estimation, overvoltage/undervoltage protection, overcharge protection.}
+        \resumeItem{Created visualisation dashboards in Plotly of data, for performance analysis and fault detection.}
+        \resumeItem{Created scripts to cut, splice and watermark videos captured on the product.}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
